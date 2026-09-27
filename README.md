@@ -16,6 +16,7 @@ Both skills first ask which stage your draft is in (BLUE = early draft, YELLOW =
 | Manual | Language | What it covers |
 |---|---|---|
 | [`Manual_Introduction_schreiben.docx`](manuals/Manual_Introduction_schreiben.docx) | German | What a strong Introduction looks like at Chair standard: architecture, gap, research question, central argument, contributions, length, style, self-tests, checklist, and annotated passages from eight published Chair papers |
+| [`Manual_Methodenteil_schreiben.docx`](manuals/Manual_Methodenteil_schreiben.docx) | German | What a strong Methods section looks like at Chair standard: the five Chair rules, sample waterfall, measures (incl. new-measure validation), control variables, estimation, leanness, length benchmark, self-tests, checklist, and annotated passages from eight published Chair papers |
 
 ---
 
@@ -54,7 +55,7 @@ Updates kommen bei diesem Weg nicht automatisch. Schau ins Changelog unten und l
 
 **Claude Code:** siehe Option B oben.
 
-**Manual:** Im Ordner [`manuals`](manuals) liegt das Word-Manual [„Die Introduction schreiben“](manuals/Manual_Introduction_schreiben.docx). Es beschreibt, wie eine Introduction auf Lehrstuhl-Niveau aussieht, mit Selbsttests, Checkliste und kommentierten Passagen aus acht publizierten Lehrstuhl-Papern.
+**Manual:** Im Ordner [`manuals`](manuals) liegen zwei Word-Manuals: [„Die Introduction schreiben“](manuals/Manual_Introduction_schreiben.docx) und [„Den Methodenteil schreiben“](manuals/Manual_Methodenteil_schreiben.docx). Sie beschreiben, wie der jeweilige Teil auf Lehrstuhl-Niveau aussieht, mit Selbsttests, Checkliste und kommentierten Passagen aus acht publizierten Lehrstuhl-Papern.
 
 ---
 
@@ -63,4 +64,4 @@ Updates kommen bei diesem Weg nicht automatisch. Schau ins Changelog unten und l
 | Version | Date | Changes |
 |---|---|---|
 | 1.0.0 | 2026-09-27 | First release: Introduction reviewer and Methods reviewer |
-| 1.0.1 | 2026-09-27 | Added the German manual "Die Introduction schreiben" (Word) |
+| 1.0.1 | 2026-09-27 | Added the German manuals "Die Introduction schreiben" and "Den Methodenteil schreiben" (Word) |
