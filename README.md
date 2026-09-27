@@ -11,6 +11,12 @@ Both skills first ask which stage your draft is in (BLUE = early draft, YELLOW =
 
 **Deutsch:** Eine deutsche Anleitung steht weiter unten.
 
+## Manuals
+
+| Manual | Language | What it covers |
+|---|---|---|
+| [`Manual_Introduction_schreiben.docx`](manuals/Manual_Introduction_schreiben.docx) | German | What a strong Introduction looks like at Chair standard: architecture, gap, research question, central argument, contributions, length, style, self-tests, checklist, and annotated passages from eight published Chair papers |
+
 ---
 
 ## Option A – Claude app (claude.ai, desktop, mobile)
@@ -48,6 +54,8 @@ Updates kommen bei diesem Weg nicht automatisch. Schau ins Changelog unten und l
 
 **Claude Code:** siehe Option B oben.
 
+**Manual:** Im Ordner [`manuals`](manuals) liegt das Word-Manual [„Die Introduction schreiben“](manuals/Manual_Introduction_schreiben.docx). Es beschreibt, wie eine Introduction auf Lehrstuhl-Niveau aussieht, mit Selbsttests, Checkliste und kommentierten Passagen aus acht publizierten Lehrstuhl-Papern.
+
 ---
 
 ## Changelog
@@ -55,3 +63,4 @@ Updates kommen bei diesem Weg nicht automatisch. Schau ins Changelog unten und l
 | Version | Date | Changes |
 |---|---|---|
 | 1.0.0 | 2026-09-27 | First release: Introduction reviewer and Methods reviewer |
+| 1.0.1 | 2026-09-27 | Added the German manual "Die Introduction schreiben" (Word) |
