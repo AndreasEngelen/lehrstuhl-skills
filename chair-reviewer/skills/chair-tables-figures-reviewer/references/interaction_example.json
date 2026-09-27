@@ -1,0 +1,42 @@
+{
+ "x_label": "Mean narcissism (standardized)",
+ "y_label": "Predicted co-founder turnover",
+ "m_label": "Narcissism diversity",
+ "b": {
+  "const": 0.1,
+  "x": 0.35,
+  "m": -0.12,
+  "xm": -0.18
+ },
+ "vcov": [
+  [
+   0.01,
+   0,
+   0,
+   0
+  ],
+  [
+   0,
+   0.0064,
+   0,
+   0.001
+  ],
+  [
+   0,
+   0,
+   0.0036,
+   0
+  ],
+  [
+   0,
+   0.001,
+   0,
+   0.0017
+  ]
+ ],
+ "link": "exp",
+ "m_range": [
+  -2.5,
+  2.5
+ ]
+}

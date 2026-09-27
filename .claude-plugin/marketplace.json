@@ -5,7 +5,7 @@
     {
       "name": "chair-reviewer",
       "source": "./chair-reviewer",
-      "description": "Stage-adaptive reviews of the title and abstract and of the Introduction, Theory and Hypotheses, Methods, Findings, and Discussion sections of empirical management, entrepreneurship, innovation and strategy papers at Chair standard."
+      "description": "Stage-adaptive reviews of the title and abstract, the Introduction, Theory and Hypotheses, Methods, Findings, and Discussion sections, and the tables and figures (with a build mode) of empirical management, entrepreneurship, innovation and strategy papers at Chair standard."
     }
   ]
 }

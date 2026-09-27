@@ -1,0 +1,71 @@
+{
+ "constructs": [
+  {
+   "id": "mn",
+   "label": "Mean narcissism",
+   "role": "iv"
+  },
+  {
+   "id": "nd",
+   "label": "Narcissism diversity",
+   "role": "iv"
+  },
+  {
+   "id": "ct",
+   "label": "Co-founder turnover",
+   "role": "mediator"
+  },
+  {
+   "id": "vg",
+   "label": "Venture growth",
+   "role": "dv",
+   "measures": [
+    "Employee growth"
+   ]
+  },
+  {
+   "id": "md",
+   "label": "Prior co-founding experience",
+   "role": "moderator"
+  }
+ ],
+ "paths": [
+  {
+   "from": "mn",
+   "to": "ct",
+   "label": "H1 (+)"
+  },
+  {
+   "from": "nd",
+   "to": "ct",
+   "label": "H2 (−)"
+  },
+  {
+   "from": "ct",
+   "to": "vg",
+   "label": "(−)"
+  },
+  {
+   "from": "md",
+   "on": [
+    "mn",
+    "ct"
+   ],
+   "label": "H3 (−)"
+  }
+ ],
+ "note_labels": [
+  "H4–H6: indirect effects on venture growth via co-founder turnover"
+ ],
+ "controls": {
+  "Team level": [
+   "Team size",
+   "Female co-founder"
+  ],
+  "Venture level": [
+   "Venture age",
+   "Employees",
+   "Industry and year fixed effects"
+  ]
+ }
+}
