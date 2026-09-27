@@ -6,8 +6,9 @@ Claude skills that give researchers structured, stage-adaptive feedback on paper
 |---|---|
 | `chair-introduction-reviewer` | The Introduction: gap/tension, why it matters, research question, central argument, contributions, proportionality |
 | `chair-methods-reviewer` | The Methods section: sample waterfall, measures, control variables, estimation approach, leanness and length |
+| `chair-findings-reviewer` | The Findings section: verdicts for every hypothesis, test–hypothesis fit (probing, indirect effects, formal comparisons), effect sizes, robustness checks, additional analyses, leanness and length |
 
-Both skills first ask which stage your draft is in (BLUE = early draft, YELLOW = mid-stage, GREEN = final refinement, WHITE = not sure) and adapt the depth of the review accordingly. They answer in the language you write in.
+All skills first ask which stage your draft is in (BLUE = early draft, YELLOW = mid-stage, GREEN = final refinement, WHITE = not sure) and adapt the depth of the review accordingly. They answer in the language you write in.
 
 **Deutsch:** Eine deutsche Anleitung steht weiter unten.
 
@@ -17,6 +18,7 @@ Both skills first ask which stage your draft is in (BLUE = early draft, YELLOW =
 |---|---|---|
 | [`Manual_Introduction_schreiben.pdf`](manuals/Manual_Introduction_schreiben.pdf) | German | What a strong Introduction looks like at Chair standard: architecture, gap, research question, central argument, contributions, length, style, self-tests, checklist, and annotated passages from eight published Chair papers |
 | [`Manual_Methodenteil_schreiben.pdf`](manuals/Manual_Methodenteil_schreiben.pdf) | German | What a strong Methods section looks like at Chair standard: the five Chair rules, sample waterfall, measures (incl. new-measure validation), control variables, estimation, leanness, length benchmark, self-tests, checklist, and annotated passages from eight published Chair papers |
+| [`Manual_Ergebnisteil_schreiben.pdf`](manuals/Manual_Ergebnisteil_schreiben.pdf) | German | What a strong Findings section looks like at Chair standard: the six Chair rules, calibrated verdicts, moderation and mediation, effect sizes, robustness checks, additional analyses, fsQCA findings, length benchmark, self-tests, checklist, and annotated passages from nine published Chair papers |
 
 ---
 
@@ -25,6 +27,7 @@ Both skills first ask which stage your draft is in (BLUE = early draft, YELLOW =
 1. Download the ZIP for the skill you want from the [`downloads`](downloads) folder (click the file, then the download button):
    - [`chair-introduction-reviewer.zip`](downloads/chair-introduction-reviewer.zip)
    - [`chair-methods-reviewer.zip`](downloads/chair-methods-reviewer.zip)
+   - [`chair-findings-reviewer.zip`](downloads/chair-findings-reviewer.zip)
 2. In Claude, open **Settings** and go to the section where you manage skills, then upload the ZIP. Do not unzip it.
 3. Start a new chat and write, for example: *"Please review the Methods section of my paper"* and attach your draft (Word, PDF, or pasted text).
 
@@ -55,7 +58,7 @@ Updates kommen bei diesem Weg nicht automatisch. Schau ins Changelog unten und l
 
 **Claude Code:** siehe Option B oben.
 
-**Manual:** Im Ordner [`manuals`](manuals) liegen zwei Manuals als PDF: [„Die Introduction schreiben“](manuals/Manual_Introduction_schreiben.pdf) und [„Den Methodenteil schreiben“](manuals/Manual_Methodenteil_schreiben.pdf). Sie beschreiben, wie der jeweilige Teil auf Lehrstuhl-Niveau aussieht, mit Selbsttests, Checkliste und kommentierten Passagen aus acht publizierten Lehrstuhl-Papern.
+**Manual:** Im Ordner [`manuals`](manuals) liegen drei Manuals als PDF: [„Die Introduction schreiben“](manuals/Manual_Introduction_schreiben.pdf), [„Den Methodenteil schreiben“](manuals/Manual_Methodenteil_schreiben.pdf) und [„Den Ergebnisteil schreiben“](manuals/Manual_Ergebnisteil_schreiben.pdf). Sie beschreiben, wie der jeweilige Teil auf Lehrstuhl-Niveau aussieht, mit Selbsttests, Checkliste und kommentierten Passagen aus publizierten Lehrstuhl-Papern.
 
 ---
 
@@ -65,3 +68,4 @@ Updates kommen bei diesem Weg nicht automatisch. Schau ins Changelog unten und l
 |---|---|---|
 | 1.0.0 | 2026-09-27 | First release: Introduction reviewer and Methods reviewer |
 | 1.0.1 | 2026-09-27 | Added the German manuals "Die Introduction schreiben" and "Den Methodenteil schreiben" (PDF) |
+| 1.1.0 | 2026-09-27 | Added the Findings reviewer (`chair-findings-reviewer`) and the German manual "Den Ergebnisteil schreiben" (PDF) |
