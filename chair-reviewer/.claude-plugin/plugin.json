@@ -1,6 +1,6 @@
 {
   "name": "chair-reviewer",
-  "description": "Stage-adaptive reviews of the title and abstract and of the Introduction, Methods, Findings, and Discussion sections of empirical management, entrepreneurship, innovation and strategy papers at Chair standard.",
-  "version": "1.3.0",
+  "description": "Stage-adaptive reviews of the title and abstract and of the Introduction, Theory and Hypotheses, Methods, Findings, and Discussion sections of empirical management, entrepreneurship, innovation and strategy papers at Chair standard.",
+  "version": "1.4.0",
   "author": { "name": "Andreas Engelen" }
 }
