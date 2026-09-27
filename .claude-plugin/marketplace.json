@@ -1,0 +1,11 @@
+{
+  "name": "lehrstuhl-skills",
+  "owner": { "name": "Andreas Engelen" },
+  "plugins": [
+    {
+      "name": "chair-reviewer",
+      "source": "./chair-reviewer",
+      "description": "Stage-adaptive reviews of the Introduction and Methods sections of empirical management, entrepreneurship, innovation and strategy papers at Chair standard."
+    }
+  ]
+}

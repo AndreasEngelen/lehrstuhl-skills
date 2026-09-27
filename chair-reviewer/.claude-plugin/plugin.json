@@ -1,0 +1,6 @@
+{
+  "name": "chair-reviewer",
+  "description": "Stage-adaptive reviews of the Introduction and Methods sections of empirical management, entrepreneurship, innovation and strategy papers at Chair standard.",
+  "version": "1.0.0",
+  "author": { "name": "Andreas Engelen" }
+}
