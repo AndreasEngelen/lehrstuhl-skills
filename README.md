@@ -88,3 +88,4 @@ Updates kommen bei diesem Weg nicht automatisch. Schau ins Changelog unten und l
 | 1.3.0 | 2026-09-27 | Added the Title & Abstract reviewer (`chair-title-abstract-reviewer`) and the German manual "Titel und Abstract schreiben" (PDF) |
 | 1.4.0 | 2026-09-27 | Added the Theory & Hypotheses reviewer (`chair-theory-hypotheses-reviewer`) and the German manual "Theorie und Hypothesen schreiben" (PDF) |
 | 1.5.0 | 2026-09-27 | Added the Tables & Figures reviewer (`chair-tables-figures-reviewer`) with a build mode (scripts for correlation tables, regression tables, interaction plots and research-model figures) and the German manual "Tabellen und Abbildungen gestalten" (PDF) |
+| 1.5.1 | 2026-09-27 | Theory & Hypotheses reviewer and manual: added the Chair guideline for deriving moderation hypotheses (six steps, worked example, phrase bank) |
